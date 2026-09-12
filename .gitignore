@@ -1,0 +1,25 @@
+﻿# secrets
+.env
+**/.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# node
+node_modules/
+
+# local scratch / large binaries (optional silence kept out of git)
+post/assets/*.wav
+**/silence_*.wav
+
+# sample-specific / obsolete
+post/build_timeline_wav.js
+scripts/llm_review_patch.js
+**/*.bak*
+**/review.html.bak*
+
+# outputs
+**/stage-b/out/
+**/stage-a-sample/
